@@ -18,7 +18,7 @@ My wish is to change my specialty to a Sofware Developer. I want to improve my d
   - Javascript (React)
 # 💻 Code example
 A simple function that takes a string and returns the string ciphered with Rot13.
-```
+```javascript
 function rot13(message){
   const input = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
   const output = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm';
