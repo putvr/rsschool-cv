@@ -36,7 +36,7 @@ function rot13(message){
 ```
 
 # 🏆 Experience
-|                     |               |
+| Date                | Organisation  |
 | :------------------ | :------------ |
 | 2018 - current time | Freelance     |
 | 2013 - 2018         | JSC Tagilbank |
@@ -44,7 +44,7 @@ function rot13(message){
 | 2008 - 2012         | School 7      |
   
 # 👨🏻‍🎓 Education 
-|      |              |                          |
+| Date | School name  | Course name              |
 | :--- | :----------- | :----------------------- |
 | 2019 | Hexlet       | javascript               |
 | 2020 | HTMLAacademy | HTML / CSS               |
