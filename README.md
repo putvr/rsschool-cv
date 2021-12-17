@@ -1,2 +1,1 @@
-# rsschool-cv
-rs.school cv task repo
+https://putvr.github.io/rsschool-cv/cv
