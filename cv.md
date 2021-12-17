@@ -4,6 +4,12 @@
   - Github <https://github.com/putvr>  
   - Discord [@roman-putilov](https://discordapp.com/users/920288291964743710/)
 
+## 👨🏼‍💻 About me
+
+I am working as System Administrator since 2011.
+
+My wish is to change my specialty to a Sofware Developer. I want to improve my developer's skills and get a Frontend job.
+
 # 🛠 Skills    
   - Linux (Debian, Ubuntu, CentOS, Oracle)
   - Python (Django)
