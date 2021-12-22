@@ -36,19 +36,16 @@ function rot13(message){
 ```
 
 # 🏆 Experience
-| Year                | Organization  |
-| :--- | :--- |
-| 2018 - current time | Freelance     |
-| 2013 - 2018         | JSC Tagilbank |
-| 2012 - 2013         | Ltd Keramika  |
-| 2008 - 2012         | School 7      |
+
+- 2018 - current time, Freelance, System Administrator
+- 2013 - 2018, JSC Tagilbank, System Administrator
+- 2012 - 2013, Ltd Keramika, System Administrator
+- 2008 - 2012, School 7, System Administrator
 
 # 👨🏻‍🎓 Education 
-| Year | School name  | Course name              |
-| :--- | :---| :--- |
-| 2019 | Hexlet       | Javascript               |
-| 2020 | HTMLAacademy | HTML / CSS               |
-| 2021 | Stepik       | Intro to Web development |
+- 2019, Hexlet, Javascript
+- 2020, HTMLAacademy, HTML/CSS
+- 2021, Stepik, Intro to Web development 
 
 #  English
 Pre-intermediate/Intermediate (A2/B1)
