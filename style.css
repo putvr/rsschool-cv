@@ -1,3 +1,181 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #706f6f;
+}
+
+h1,
+h2 {
+  color: #000;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  min-height: 100vh;
+}
+
+/*** layout ***/ 
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.section h2,
+.section-header {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  min-width: 250px;
+}
+
+.section-content {
+  flex-grow: 2;
+}
+
+/*** nav ***/
+.nav-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.nav-item a {
+  padding: 10px;
+  color: #706f6f;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+
+.nav-item a:hover {
+  opacity: 0.5;
+}
+
+/*** sections ***/
+
+.about h1 {
+  font-size: 30px;
+  flex-grow: 2;
+  margin-bottom: 25px;
+}
+
+.about span {
+  font-size: 20px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+.contacts {
+  margin-top: -100px;
+}
+
+.contacts h2 {
+  visibility: hidden;
+}
+
+.contacts-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;  
+}
+
+.contact-item {
+  flex-basis: 50%;
+  line-height: 2;
+}
+
+.email::before {
+  content: '📧';
+}
+
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin-bottom: 20px;
+}
+
+.work__years {
+  color: #c8aa8c;
+  font-size: 18px;
+  flex-basis: 30%;
+}
+
+.work__place {
+  color: #706f6f;
+  font-weight: bold;
+  align-content: center;
+  flex-basis: 50%;
+}
+
+.work__position {
+  text-transform: uppercase;
+  font-weight: bold;
+  flex-basis: 100%;
+}
+
+.cource {
+  display: flex;
+  align-items: baseline;
+}
+
+.cource__date {
+  color: #c8aa8c;
+  font-size: 18px;
+  flex-basis: 50px;
+}
+
+.cource__owner {
+  color: #706f6f;
+  font-weight: bold;
+  align-content: center;
+  flex-basis: 25%;
+}
+
+.cource__name {
+  text-transform: uppercase;
+  font-weight: bold;
+  flex-basis: 50%;
+  
+}
+
+.links {
+  display: flex;
+
+}
+
+.links li {
+  padding-right: 10px;
 }
