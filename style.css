@@ -28,10 +28,20 @@ li {
 
 a {
   text-decoration: none;
+  color: #706f6f;
+}
+
+a:hover {
+  opacity: 0.5;
 }
 
 .main {
   min-height: 100vh;
+}
+
+.fas, 
+.fab {
+  color: #706f6f;
 }
 
 /*** layout ***/ 
@@ -59,6 +69,12 @@ a {
 
 .section-content {
   flex-grow: 2;
+}
+
+.section:nth-child(2) ~ .section .section-content  {
+  border-top: 5px solid  #c8aa8c;
+  margin-top: 5px;
+  padding-top: 20px;
 }
 
 /*** nav ***/
@@ -96,6 +112,7 @@ a {
 .avatar {
   border-radius: 50%;
 }
+
 .contacts {
   margin-top: -100px;
 }
@@ -115,15 +132,21 @@ a {
   line-height: 2;
 }
 
-.email::before {
-  content: '📧';
+/* .projects {
+
+} */
+
+.projects-list {
+  display: flex;  
 }
 
+.projects-item {
+  max-width: 350px;
+}
 
 .work {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
   margin-bottom: 20px;
 }
 
@@ -171,11 +194,14 @@ a {
   
 }
 
-.links {
+.footer-nav {
   display: flex;
-
+  font-size: 25px;
+  justify-content: space-around;
+  border-top: 1px solid #706f6f;
+  padding-top: 20px;
 }
 
-.links li {
+.footer-nav li {
   padding-right: 10px;
 }
