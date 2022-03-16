@@ -138,6 +138,7 @@ a:hover {
 
 .projects-list {
   display: flex;  
+  gap: 20px;
 }
 
 .projects-item {
@@ -190,8 +191,12 @@ a:hover {
 .cource__name {
   text-transform: uppercase;
   font-weight: bold;
-  flex-basis: 50%;
-  
+  flex-basis: 50%;  
+}
+
+.languages-list dt {
+  font-weight: 700;
+  padding-top: 10px;
 }
 
 .footer-nav {
